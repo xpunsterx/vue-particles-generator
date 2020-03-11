@@ -1,6 +1,6 @@
 {
   "name": "vue-particles-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Vue component for generating animated particles",
   "main": "dist/vueParticlesGenerator.ssr.js",
   "browser": "dist/vueParticlesGenerator.esm.js",
