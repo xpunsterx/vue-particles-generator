@@ -8,11 +8,11 @@ Simple Vue component for generating animated particles
 
 ### Installation
 
-\`npm install ...\`
+\`npm install vue-particles-generator\`
 
 or
 
-\`yarn add ...\`
+\`yarn add vue-particles-generator\`
 
 ### Usage
 
