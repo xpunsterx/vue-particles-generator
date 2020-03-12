@@ -3,6 +3,8 @@ import fs from "fs";
 
 export const createReadme = () => {
     let result = `## vue particles generator
+[![npm version](https://badge.fury.io/js/vue-particles-generator.svg)](https://badge.fury.io/js/vue-particles-generator)
+[![Monthly Downloads](https://img.shields.io/npm/dm/vue-particles-generator.svg)](https://www.npmjs.com/package/vue-particles-generator)
 
 Simple Vue component for generating animated particles
 
@@ -44,6 +46,7 @@ export default {
 \`\`\`
 
 ### Demo
+https://xpunsterx.github.io/vue-particles-generator/#/
 
 ### Options list
 

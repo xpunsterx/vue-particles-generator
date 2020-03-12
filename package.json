@@ -1,6 +1,6 @@
 {
   "name": "vue-particles-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Vue component for generating animated particles",
   "main": "dist/vueParticlesGenerator.ssr.js",
   "browser": "dist/vueParticlesGenerator.esm.js",
@@ -22,6 +22,17 @@
     "type": "git",
     "url": "git+https://github.com/xpunsterx/vue-particles-generator.git"
   },
+  "keywords": [
+    "vue",
+    "particles",
+    "animation",
+    "canvas"
+  ],
+  "author": "xpunsterx",
+  "bugs": {
+    "url": "https://github.com/xpunsterx/vue-particles-generator/issues"
+  },
+  "homepage": "https://xpunsterx.github.io/vue-particles-generator/#/",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
