@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3044cfdb35e7b562d441",
+    "revision": "858a15e7c56e0e43a203",
     "url": "/vue-particles-generator/css/about.f6c37b11.css"
   },
   {
-    "revision": "e9c16496d692893bf6ab",
+    "revision": "0c33aafae0aa8b2e8e6d",
     "url": "/vue-particles-generator/css/app.a4936770.css"
   },
   {
-    "revision": "504fa8bcee8ef584f202",
+    "revision": "43b641a1f1426a6df4cf",
     "url": "/vue-particles-generator/css/chunk-vendors.aacc95eb.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-particles-generator/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.0509ab09.woff2"
   },
   {
-    "revision": "8484bdeab0f39d39881be5004502313a",
+    "revision": "21dc7b3397f6744f1e24f4be43b5ef6b",
     "url": "/vue-particles-generator/index.html"
   },
   {
-    "revision": "3044cfdb35e7b562d441",
-    "url": "/vue-particles-generator/js/about.26612fad.js"
+    "revision": "858a15e7c56e0e43a203",
+    "url": "/vue-particles-generator/js/about.60168d3c.js"
   },
   {
-    "revision": "e9c16496d692893bf6ab",
-    "url": "/vue-particles-generator/js/app.3a2229df.js"
+    "revision": "0c33aafae0aa8b2e8e6d",
+    "url": "/vue-particles-generator/js/app.a71b0d43.js"
   },
   {
-    "revision": "504fa8bcee8ef584f202",
-    "url": "/vue-particles-generator/js/chunk-vendors.8afc72cd.js"
+    "revision": "43b641a1f1426a6df4cf",
+    "url": "/vue-particles-generator/js/chunk-vendors.684ca06d.js"
   },
   {
     "revision": "1c3ae08b17c21c72153d93c39168acc9",
