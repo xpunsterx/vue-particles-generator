@@ -2,38 +2,24 @@
   "name": "vue-particles-generator",
   "version": "1.0.2",
   "description": "Simple Vue component for generating animated particles",
+  "author": "xpunsterx",
+  "scripts": {
+    "serve": "vue-cli-service serve src/serve-dev.js",
+    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "lint": "vue-cli-service lint",
+    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
+  },
   "main": "dist/vueParticlesGenerator.ssr.js",
-  "browser": "dist/vueParticlesGenerator.esm.js",
   "module": "dist/vueParticlesGenerator.esm.js",
+  "browser": "dist/vueParticlesGenerator.esm.js",
   "unpkg": "dist/vueParticlesGenerator.min.js",
   "files": [
     "dist/*",
     "src/**/*.vue",
     "!src/serve-dev.*"
   ],
-  "scripts": {
-    "serve": "vue-cli-service serve src/serve-dev.js",
-    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
-    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
-    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
-    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xpunsterx/vue-particles-generator.git"
-  },
-  "keywords": [
-    "vue",
-    "particles",
-    "animation",
-    "canvas"
-  ],
-  "author": "xpunsterx",
-  "bugs": {
-    "url": "https://github.com/xpunsterx/vue-particles-generator/issues"
-  },
-  "homepage": "https://xpunsterx.github.io/vue-particles-generator/#/",
-  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -44,8 +30,12 @@
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-replace": "^2.2.1",
     "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.2.3",
     "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
     "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
     "minimist": "^1.2.0",
     "rollup": "^1.27.13",
     "rollup-plugin-babel": "^4.3.3",
@@ -57,7 +47,22 @@
   "peerDependencies": {
     "vue": "^2.6.10"
   },
+  "bugs": {
+    "url": "https://github.com/xpunsterx/vue-particles-generator/issues"
+  },
   "engines": {
     "node": ">=8"
+  },
+  "homepage": "https://xpunsterx.github.io/vue-particles-generator/#/",
+  "keywords": [
+    "vue",
+    "particles",
+    "animation",
+    "canvas"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpunsterx/vue-particles-generator.git"
   }
 }
