@@ -1,16 +1,21 @@
 ## vue particles generator
 [![npm version](https://badge.fury.io/js/vue-particles-generator.svg)](https://badge.fury.io/js/vue-particles-generator)
+[![Build Status](https://travis-ci.org/xpunsterx/vue-particles-generator.svg?branch=master)](https://travis-ci.org/xpunsterx/vue-particles-generator)
 [![Monthly Downloads](https://img.shields.io/npm/dm/vue-particles-generator.svg)](https://www.npmjs.com/package/vue-particles-generator)
 
 Simple Vue component for generating animated particles
 
 ### Installation
 
-`npm install vue-particles-generator`
+```sh
+npm install vue-particles-generator
+```
 
 or
 
-`yarn add vue-particles-generator`
+```sh
+yarn add vue-particles-generator
+```
 
 ### Usage
 

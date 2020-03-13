@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-particles-generator/precache-manifest.374059ee1a285b0c951f82e92852cc2e.js"
+  "/vue-particles-generator/precache-manifest.7cc455ba59a7fb096a307fb469cf6454.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-canvas-particles-demo-dev"});

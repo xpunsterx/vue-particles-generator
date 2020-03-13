@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-particles-generator/css/about.f6c37b11.css"
   },
   {
-    "revision": "0c33aafae0aa8b2e8e6d",
+    "revision": "930c0efb269b0bf2c37f",
     "url": "/vue-particles-generator/css/app.a4936770.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-particles-generator/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.0509ab09.woff2"
   },
   {
-    "revision": "21dc7b3397f6744f1e24f4be43b5ef6b",
+    "revision": "f1acbcbe8a85e6bb0b6d73e2362340ac",
     "url": "/vue-particles-generator/index.html"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-particles-generator/js/about.60168d3c.js"
   },
   {
-    "revision": "0c33aafae0aa8b2e8e6d",
-    "url": "/vue-particles-generator/js/app.a71b0d43.js"
+    "revision": "930c0efb269b0bf2c37f",
+    "url": "/vue-particles-generator/js/app.298b7fb8.js"
   },
   {
     "revision": "43b641a1f1426a6df4cf",
